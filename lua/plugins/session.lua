@@ -3,7 +3,7 @@ return {
 	lazy = false,
 	config = function()
 		require("auto-session").setup({
-			allowed_dirs = { "~/Developer" },
+			allowed_dirs = { "~/Developer/kindness", "~/Developer/kind-inertia" },
 			session_lens = {
 				buftypes_to_ignore = {},
 				load_on_setup = true,
